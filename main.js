@@ -2,7 +2,7 @@ let cont = true
 let goodbyes = 0
 let userInput = window.prompt('HEY, KID!')
 
-while ( cont === true ) {
+while ( cont  ) {
 
     if ( userInput === "" ) {
         userInput=window.prompt("WHAT!?")
